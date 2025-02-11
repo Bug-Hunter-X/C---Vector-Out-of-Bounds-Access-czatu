@@ -1,0 +1,1 @@
+This repository demonstrates a common C++ error: accessing memory beyond the bounds of a `std::vector`. The `bug.cpp` file contains code that attempts to access an element outside the vector's allocated memory, leading to undefined behavior, often a segmentation fault.  The `bugSolution.cpp` file shows how to safely access vector elements and avoid this error.
